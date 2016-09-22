@@ -15,6 +15,7 @@
     "fs":      "latest",
     "debug":   "latest",
     "elasticsearch": "11.0.1",
-    "slack-node": "0.1.8"
+    "slack-node": "0.1.8",
+    "moment":  "2.15.1"
   }
 }
