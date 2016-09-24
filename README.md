@@ -2,8 +2,7 @@
 ## (Node Daemon)
 
 ## Synopsis
-Multi process Node.js app which queries the state_table index in ES and performs a notification based on client preferences
-
+Multi process Node.js app which maintains a state_table of client/domain up/down statuses and performs a notifications when state changes based on client preferences. Actions are triggered by messages subscribed to on a rabbit work queue from up / down detectors running elsewhere.
 
 ### Installation
 ```
@@ -22,7 +21,6 @@ Debug mode
 ```
 Start with DEBUG=wambulance-ns node lib/app.js
 ```
-
 
 ## Author
 Daniel Korel
